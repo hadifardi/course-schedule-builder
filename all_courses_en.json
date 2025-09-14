@@ -1,0 +1,997 @@
+[
+  {
+    "code": "EE101",
+    "title": "Introduction to Electrical Engineering",
+    "teacher": "Dr. Sarah Chen",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "09:15",
+        "endTime": "10:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "09:15",
+        "endTime": "10:45"
+      }
+    ]
+  },
+  {
+    "code": "CS201",
+    "title": "Data Structures and Algorithms",
+    "teacher": "Prof. Michael Rodriguez",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "10:30",
+        "endTime": "12:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "10:30",
+        "endTime": "12:00"
+      }
+    ]
+  },
+  {
+    "code": "EE215",
+    "title": "Circuit Analysis",
+    "teacher": "Dr. James Wilson",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "13:15",
+        "endTime": "14:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "13:15",
+        "endTime": "14:45"
+      }
+    ]
+  },
+  {
+    "code": "CS301",
+    "title": "Operating Systems",
+    "teacher": "Prof. Emily Thompson",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      }
+    ]
+  },
+  {
+    "code": "EE302",
+    "title": "Digital Signal Processing",
+    "teacher": "Dr. Robert Kim",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "15:45",
+        "endTime": "17:15"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "15:45",
+        "endTime": "17:15"
+      }
+    ]
+  },
+  {
+    "code": "CS401",
+    "title": "Computer Networks",
+    "teacher": "Prof. Lisa Anderson",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      }
+    ]
+  },
+  {
+    "code": "EE410",
+    "title": "Power Systems Engineering",
+    "teacher": "Dr. David Park",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "09:00",
+        "endTime": "11:30"
+      }
+    ]
+  },
+  {
+    "code": "CS315",
+    "title": "Database Systems",
+    "teacher": "Prof. Jennifer Martinez",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "11:15",
+        "endTime": "12:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "11:15",
+        "endTime": "12:45"
+      }
+    ]
+  },
+  {
+    "code": "EE225",
+    "title": "Electronics I",
+    "teacher": "Dr. Andrew Johnson",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "08:30",
+        "endTime": "10:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "08:30",
+        "endTime": "10:00"
+      }
+    ]
+  },
+  {
+    "code": "CS205",
+    "title": "Object-Oriented Programming",
+    "teacher": "Prof. Maria Gonzalez",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "13:45",
+        "endTime": "16:15"
+      }
+    ]
+  },
+  {
+    "code": "EE320",
+    "title": "Control Systems",
+    "teacher": "Dr. Thomas Brown",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "14:30",
+        "endTime": "16:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "14:30",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "code": "CS420",
+    "title": "Artificial Intelligence",
+    "teacher": "Prof. Kevin Lee",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "13:00",
+        "endTime": "14:30"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "13:00",
+        "endTime": "14:30"
+      }
+    ]
+  },
+  {
+    "code": "EE405",
+    "title": "Communication Systems",
+    "teacher": "Dr. Susan White",
+    "units": 3,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "16:15",
+        "endTime": "17:45"
+      },
+      {
+        "day": "Friday",
+        "startTime": "16:15",
+        "endTime": "17:45"
+      }
+    ]
+  },
+  {
+    "code": "CS430",
+    "title": "Machine Learning",
+    "teacher": "Prof. Daniel Clark",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "10:45",
+        "endTime": "12:15"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "10:45",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "code": "EE230",
+    "title": "Electromagnetics",
+    "teacher": "Dr. Patricia Harris",
+    "units": 3,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "09:45",
+        "endTime": "11:15"
+      },
+      {
+        "day": "Saturday",
+        "startTime": "09:45",
+        "endTime": "11:15"
+      }
+    ]
+  },
+  {
+    "code": "CS340",
+    "title": "Software Engineering",
+    "teacher": "Prof. Christopher Young",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      }
+    ]
+  },
+  {
+    "code": "EE350",
+    "title": "Microprocessor Systems",
+    "teacher": "Dr. Nancy King",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      }
+    ]
+  },
+  {
+    "code": "CS450",
+    "title": "Computer Graphics",
+    "teacher": "Prof. Brian Scott",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "10:30",
+        "endTime": "13:00"
+      }
+    ]
+  },
+  {
+    "code": "EE260",
+    "title": "Digital Logic Design",
+    "teacher": "Dr. Amanda Green",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "11:30",
+        "endTime": "13:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "11:30",
+        "endTime": "13:00"
+      }
+    ]
+  },
+  {
+    "code": "CS460",
+    "title": "Cybersecurity Fundamentals",
+    "teacher": "Prof. Jason Hill",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      }
+    ]
+  },
+  {
+    "code": "EE370",
+    "title": "VLSI Design",
+    "teacher": "Dr. Michelle Adams",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "13:30",
+        "endTime": "15:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "13:30",
+        "endTime": "15:00"
+      }
+    ]
+  },
+  {
+    "code": "CS470",
+    "title": "Natural Language Processing",
+    "teacher": "Prof. Eric Baker",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "16:00",
+        "endTime": "17:30"
+      }
+    ]
+  },
+  {
+    "code": "EE380",
+    "title": "Renewable Energy Systems",
+    "teacher": "Dr. Jessica Carter",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "14:45",
+        "endTime": "16:15"
+      }
+    ]
+  },
+  {
+    "code": "CS480",
+    "title": "Cloud Computing",
+    "teacher": "Prof. Matthew Turner",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "14:15",
+        "endTime": "16:45"
+      }
+    ]
+  },
+  {
+    "code": "EE390",
+    "title": "Robotics and Automation",
+    "teacher": "Dr. Ryan Phillips",
+    "units": 3,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "10:00",
+        "endTime": "11:30"
+      },
+      {
+        "day": "Friday",
+        "startTime": "10:00",
+        "endTime": "11:30"
+      }
+    ]
+  },
+  {
+    "code": "CS490",
+    "title": "Big Data Analytics",
+    "teacher": "Prof. Samantha Evans",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      }
+    ]
+  },
+  {
+    "code": "EE400",
+    "title": "Wireless Communications",
+    "teacher": "Dr. Charles Cooper",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "13:45",
+        "endTime": "15:15"
+      }
+    ]
+  },
+  {
+    "code": "CS500",
+    "title": "Deep Learning",
+    "teacher": "Prof. Nicole Rivera",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "09:00",
+        "endTime": "10:30"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "09:00",
+        "endTime": "10:30"
+      }
+    ]
+  },
+  {
+    "code": "EE420",
+    "title": "Power Electronics",
+    "teacher": "Dr. George Mitchell",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "11:45",
+        "endTime": "13:15"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "11:45",
+        "endTime": "13:15"
+      }
+    ]
+  },
+  {
+    "code": "CS510",
+    "title": "Computer Vision",
+    "teacher": "Prof. Rachel Perez",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "11:45",
+        "endTime": "13:15"
+      }
+    ]
+  },
+  {
+    "code": "EE430",
+    "title": "Antenna Theory",
+    "teacher": "Dr. Steven Roberts",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "16:00",
+        "endTime": "17:30"
+      }
+    ]
+  },
+  {
+    "code": "CS520",
+    "title": "Distributed Systems",
+    "teacher": "Prof. Timothy Campbell",
+    "units": 3,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "09:30",
+        "endTime": "11:00"
+      },
+      {
+        "day": "Friday",
+        "startTime": "09:30",
+        "endTime": "11:00"
+      }
+    ]
+  },
+  {
+    "code": "EE440",
+    "title": "Semiconductor Devices",
+    "teacher": "Dr. Kimberly Stewart",
+    "units": 3,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "10:15",
+        "endTime": "11:45"
+      },
+      {
+        "day": "Saturday",
+        "startTime": "10:15",
+        "endTime": "11:45"
+      }
+    ]
+  },
+  {
+    "code": "CS530",
+    "title": "Quantum Computing",
+    "teacher": "Prof. Justin Morris",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      }
+    ]
+  },
+  {
+    "code": "EE450",
+    "title": "Electric Machines",
+    "teacher": "Dr. Angela Bell",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "12:15",
+        "endTime": "13:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "12:15",
+        "endTime": "13:45"
+      }
+    ]
+  },
+  {
+    "code": "CS540",
+    "title": "Mobile Application Development",
+    "teacher": "Prof. Brandon Cook",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "15:45",
+        "endTime": "17:15"
+      }
+    ]
+  },
+  {
+    "code": "EE460",
+    "title": "Optical Communications",
+    "teacher": "Dr. Heather Murphy",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "15:00",
+        "endTime": "16:30"
+      }
+    ]
+  },
+  {
+    "code": "CS550",
+    "title": "Human-Computer Interaction",
+    "teacher": "Prof. Joshua Bailey",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "10:00",
+        "endTime": "11:30"
+      }
+    ]
+  },
+  {
+    "code": "EE470",
+    "title": "Embedded Systems",
+    "teacher": "Dr. Patrick Rivera",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "08:45",
+        "endTime": "10:15"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "08:45",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "code": "CS560",
+    "title": "Game Development",
+    "teacher": "Prof. Stephanie Price",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "13:00",
+        "endTime": "14:30"
+      }
+    ]
+  },
+  {
+    "code": "EE480",
+    "title": "Nanotechnology",
+    "teacher": "Dr. Benjamin Foster",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "14:30",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "code": "CS570",
+    "title": "Blockchain Technology",
+    "teacher": "Prof. Victoria Reed",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "13:30",
+        "endTime": "15:00"
+      }
+    ]
+  },
+  {
+    "code": "EE490",
+    "title": "Smart Grid Technology",
+    "teacher": "Dr. Nicholas Sanders",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "16:45",
+        "endTime": "18:15"
+      }
+    ]
+  },
+  {
+    "code": "CS580",
+    "title": "Internet of Things",
+    "teacher": "Prof. Christina Powell",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "17:15",
+        "endTime": "18:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "17:15",
+        "endTime": "18:45"
+      }
+    ]
+  },
+  {
+    "code": "EE500",
+    "title": "Radar Systems",
+    "teacher": "Dr. Aaron Howard",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "17:30",
+        "endTime": "19:00"
+      }
+    ]
+  },
+  {
+    "code": "CS590",
+    "title": "Parallel Computing",
+    "teacher": "Prof. Kyle Simmons",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "08:15",
+        "endTime": "09:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "08:15",
+        "endTime": "09:45"
+      }
+    ]
+  },
+  {
+    "code": "EE510",
+    "title": "Biomedical Instrumentation",
+    "teacher": "Dr. Lauren Bryant",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "15:30",
+        "endTime": "17:00"
+      }
+    ]
+  },
+  {
+    "code": "CS600",
+    "title": "Compiler Design",
+    "teacher": "Prof. Zachary Russell",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "08:45",
+        "endTime": "11:15"
+      }
+    ]
+  },
+  {
+    "code": "EE520",
+    "title": "Satellite Communications",
+    "teacher": "Dr. Melissa Diaz",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "19:00",
+        "endTime": "20:30"
+      }
+    ]
+  },
+  {
+    "code": "CS610",
+    "title": "Software Testing",
+    "teacher": "Prof. Tyler Long",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "18:15",
+        "endTime": "19:45"
+      }
+    ]
+  },
+  {
+    "code": "EE530",
+    "title": "Electric Vehicle Technology",
+    "teacher": "Dr. Rachel Flores",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "19:00",
+        "endTime": "20:30"
+      }
+    ]
+  },
+  {
+    "code": "CS620",
+    "title": "Web Technologies",
+    "teacher": "Prof. Jeffrey Watson",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "17:45",
+        "endTime": "19:15"
+      }
+    ]
+  },
+  {
+    "code": "EE540",
+    "title": "Fiber Optics",
+    "teacher": "Dr. Scott Morgan",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "16:45",
+        "endTime": "18:15"
+      }
+    ]
+  },
+  {
+    "code": "CS630",
+    "title": "Data Mining",
+    "teacher": "Prof. Amanda Coleman",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "07:15",
+        "endTime": "08:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "07:15",
+        "endTime": "08:45"
+      }
+    ]
+  },
+  {
+    "code": "EE550",
+    "title": "Industrial Automation",
+    "teacher": "Dr. Patrick Hughes",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "07:30",
+        "endTime": "09:00"
+      }
+    ]
+  },
+  {
+    "code": "CS640",
+    "title": "Information Retrieval",
+    "teacher": "Prof. Danielle Barnes",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "07:45",
+        "endTime": "09:15"
+      }
+    ]
+  },
+  {
+    "code": "EE560",
+    "title": "Microwave Engineering",
+    "teacher": "Dr. Justin Ross",
+    "units": 3,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "08:30",
+        "endTime": "10:00"
+      },
+      {
+        "day": "Saturday",
+        "startTime": "08:00",
+        "endTime": "09:30"
+      }
+    ]
+  },
+  {
+    "code": "CS650",
+    "title": "Computer Architecture",
+    "teacher": "Prof. Heather Patterson",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "12:00",
+        "endTime": "14:30"
+      }
+    ]
+  },
+  {
+    "code": "EE570",
+    "title": "Digital Image Processing",
+    "teacher": "Dr. Gregory Simmons",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "18:30",
+        "endTime": "20:00"
+      }
+    ]
+  },
+  {
+    "code": "CS660",
+    "title": "Neural Networks",
+    "teacher": "Prof. Brittany James",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "19:15",
+        "endTime": "20:45"
+      }
+    ]
+  },
+  {
+    "code": "EE580",
+    "title": "Renewable Energy Storage",
+    "teacher": "Dr. Austin Butler",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "19:30",
+        "endTime": "21:00"
+      }
+    ]
+  },
+  {
+    "code": "CS670",
+    "title": "Algorithm Design",
+    "teacher": "Prof. Cody Fisher",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "12:30",
+        "endTime": "14:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "12:30",
+        "endTime": "14:00"
+      }
+    ]
+  },
+  {
+    "code": "EE590",
+    "title": "Power System Protection",
+    "teacher": "Dr. Vanessa Price",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "18:30",
+        "endTime": "20:00"
+      }
+    ]
+  },
+  {
+    "code": "CS680",
+    "title": "Software Architecture",
+    "teacher": "Prof. Trevor Coleman",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "07:45",
+        "endTime": "09:15"
+      }
+    ]
+  },
+  {
+    "code": "EE600",
+    "title": "High Voltage Engineering",
+    "teacher": "Dr. Jasmine Reed",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "20:00",
+        "endTime": "21:30"
+      }
+    ]
+  }
+]

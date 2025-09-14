@@ -1,0 +1,84 @@
+/* --- STICKY HEADER & COLUMN STYLES --- */
+
+/* 1. Make the main schedule container scrollable */
+#schedule-container {
+    overflow: auto; /* Enable both horizontal and vertical scrolling */
+    max-height: 75vh; /* Limit the height to 75% of the viewport height */
+}
+
+/* 2. Stick the top row (hours) */
+#schedule-head th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 2; /* Needs to be on top of the body rows */
+}
+
+/* 3. Stick the first column (days) */
+#schedule-body .weekday-label {
+    position: sticky;
+    left: 0;
+    background-color: #f8f9fa;
+    z-index: 1; /* Sits above table cells but below the corner header */
+}
+
+/* 4. Fix the top-left corner cell so it's on top of everything */
+#schedule-head th:first-child {
+    left: 0; /* It also needs to stick to the left */
+    z-index: 3; /* Highest z-index */
+}
+
+/* --- Original Course Block & Form Styles --- */
+
+.course-block {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #6c757d;
+    border: 1px solid rgba(0,0,0,0.2);
+    overflow: hidden;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.course-block.selected {
+    background-color: #0d6efd;
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.5);
+}
+
+.course-block.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #6c757d;
+}
+
+.course-block .block-actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+}
+
+.course-block:hover .block-actions {
+    display: block;
+}
+
+.course-block .block-actions i {
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 0.9em;
+}
+
+.course-block .block-actions i:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.day-time-entry {
+    border-left: 3px solid #dee2e6;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}

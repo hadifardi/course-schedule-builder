@@ -1,0 +1,997 @@
+[
+  {
+    "code": "EE101",
+    "title": "مقدمه‌ای بر مهندسی برق",
+    "teacher": "دکتر سارا چن",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "09:15",
+        "endTime": "10:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "09:15",
+        "endTime": "10:45"
+      }
+    ]
+  },
+  {
+    "code": "CS201",
+    "title": "ساختمان داده و الگوریتم‌ها",
+    "teacher": "پروفسور مایکل رودریگز",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "10:30",
+        "endTime": "12:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "10:30",
+        "endTime": "12:00"
+      }
+    ]
+  },
+  {
+    "code": "EE215",
+    "title": "تحلیل مدار",
+    "teacher": "دکتر جیمز ویلسون",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "13:15",
+        "endTime": "14:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "13:15",
+        "endTime": "14:45"
+      }
+    ]
+  },
+  {
+    "code": "CS301",
+    "title": "سیستم‌های عامل",
+    "teacher": "پروفسور امیلی تامپسون",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      }
+    ]
+  },
+  {
+    "code": "EE302",
+    "title": "پردازش سیگنال دیجیتال",
+    "teacher": "دکتر رابرت کیم",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "15:45",
+        "endTime": "17:15"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "15:45",
+        "endTime": "17:15"
+      }
+    ]
+  },
+  {
+    "code": "CS401",
+    "title": "شبکه‌های کامپیوتری",
+    "teacher": "پروفسور لیزا اندرسون",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      }
+    ]
+  },
+  {
+    "code": "EE410",
+    "title": "مهندسی سیستم‌های قدرت",
+    "teacher": "دکتر دیوید پارک",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "09:00",
+        "endTime": "11:30"
+      }
+    ]
+  },
+  {
+    "code": "CS315",
+    "title": "سیستم‌های پایگاه داده",
+    "teacher": "پروفسور جنیفر مارتینز",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "11:15",
+        "endTime": "12:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "11:15",
+        "endTime": "12:45"
+      }
+    ]
+  },
+  {
+    "code": "EE225",
+    "title": "الکترونیک ۱",
+    "teacher": "دکتر اندرو جانسون",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "08:30",
+        "endTime": "10:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "08:30",
+        "endTime": "10:00"
+      }
+    ]
+  },
+  {
+    "code": "CS205",
+    "title": "برنامه‌نویسی شیءگرا",
+    "teacher": "پروفسور ماریا گونزالس",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "13:45",
+        "endTime": "16:15"
+      }
+    ]
+  },
+  {
+    "code": "EE320",
+    "title": "سیستم‌های کنترل",
+    "teacher": "دکتر توماس براون",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "14:30",
+        "endTime": "16:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "14:30",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "code": "CS420",
+    "title": "هوش مصنوعی",
+    "teacher": "پروفسور کوین لی",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "13:00",
+        "endTime": "14:30"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "13:00",
+        "endTime": "14:30"
+      }
+    ]
+  },
+  {
+    "code": "EE405",
+    "title": "سیستم‌های ارتباطی",
+    "teacher": "دکتر سوزان وایت",
+    "units": 3,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "16:15",
+        "endTime": "17:45"
+      },
+      {
+        "day": "Friday",
+        "startTime": "16:15",
+        "endTime": "17:45"
+      }
+    ]
+  },
+  {
+    "code": "CS430",
+    "title": "یادگیری ماشین",
+    "teacher": "پروفسور دانیل کلارک",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "10:45",
+        "endTime": "12:15"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "10:45",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "code": "EE230",
+    "title": "الکترومغناطیس",
+    "teacher": "دکتر پاتریشیا هریس",
+    "units": 3,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "09:45",
+        "endTime": "11:15"
+      },
+      {
+        "day": "Saturday",
+        "startTime": "09:45",
+        "endTime": "11:15"
+      }
+    ]
+  },
+  {
+    "code": "CS340",
+    "title": "مهندسی نرم‌افزار",
+    "teacher": "پروفسور کریستوفر یانگ",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      }
+    ]
+  },
+  {
+    "code": "EE350",
+    "title": "سیستم‌های میکروپروسسوری",
+    "teacher": "دکتر نانسی کینگ",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "16:30",
+        "endTime": "18:00"
+      }
+    ]
+  },
+  {
+    "code": "CS450",
+    "title": "گرافیک کامپیوتری",
+    "teacher": "پروفسور برایان اسکات",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "10:30",
+        "endTime": "13:00"
+      }
+    ]
+  },
+  {
+    "code": "EE260",
+    "title": "طراحی منطق دیجیتال",
+    "teacher": "دکتر آماندا گرین",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "11:30",
+        "endTime": "13:00"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "11:30",
+        "endTime": "13:00"
+      }
+    ]
+  },
+  {
+    "code": "CS460",
+    "title": "مبانی امنیت سایبری",
+    "teacher": "پروفسور جیسون هیل",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      }
+    ]
+  },
+  {
+    "code": "EE370",
+    "title": "طراحی VLSI",
+    "teacher": "دکتر میشل آدامز",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "13:30",
+        "endTime": "15:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "13:30",
+        "endTime": "15:00"
+      }
+    ]
+  },
+  {
+    "code": "CS470",
+    "title": "پردازش زبان طبیعی",
+    "teacher": "پروفسور اریک بیکر",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "16:00",
+        "endTime": "17:30"
+      }
+    ]
+  },
+  {
+    "code": "EE380",
+    "title": "سیستم‌های انرژی تجدیدپذیر",
+    "teacher": "دکتر جسیکا کارتر",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "14:45",
+        "endTime": "16:15"
+      }
+    ]
+  },
+  {
+    "code": "CS480",
+    "title": "رایانش ابری",
+    "teacher": "پروفسور متیو ترنر",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "14:15",
+        "endTime": "16:45"
+      }
+    ]
+  },
+  {
+    "code": "EE390",
+    "title": "رباتیک و اتوماسیون",
+    "teacher": "دکتر رایان فیلیپس",
+    "units": 3,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "10:00",
+        "endTime": "11:30"
+      },
+      {
+        "day": "Friday",
+        "startTime": "10:00",
+        "endTime": "11:30"
+      }
+    ]
+  },
+  {
+    "code": "CS490",
+    "title": "تحلیل داده‌های کلان",
+    "teacher": "پروفسور سامانتا ایوانز",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "15:15",
+        "endTime": "16:45"
+      }
+    ]
+  },
+  {
+    "code": "EE400",
+    "title": "ارتباطات بی‌سیم",
+    "teacher": "دکتر چارلز کوپر",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "13:45",
+        "endTime": "15:15"
+      }
+    ]
+  },
+  {
+    "code": "CS500",
+    "title": "یادگیری عمیق",
+    "teacher": "پروفسور نیکول ریورا",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "09:00",
+        "endTime": "10:30"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "09:00",
+        "endTime": "10:30"
+      }
+    ]
+  },
+  {
+    "code": "EE420",
+    "title": "الکترونیک قدرت",
+    "teacher": "دکتر جورج میچل",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "11:45",
+        "endTime": "13:15"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "11:45",
+        "endTime": "13:15"
+      }
+    ]
+  },
+  {
+    "code": "CS510",
+    "title": "بینایی کامپیوتر",
+    "teacher": "پروفسور راشل پرز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "11:45",
+        "endTime": "13:15"
+      }
+    ]
+  },
+  {
+    "code": "EE430",
+    "title": "تئوری آنتن",
+    "teacher": "دکتر استیون رابرتز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "16:00",
+        "endTime": "17:30"
+      }
+    ]
+  },
+  {
+    "code": "CS520",
+    "title": "سیستم‌های توزیع‌شده",
+    "teacher": "پروفسور تیموتی کمپبل",
+    "units": 3,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "09:30",
+        "endTime": "11:00"
+      },
+      {
+        "day": "Friday",
+        "startTime": "09:30",
+        "endTime": "11:00"
+      }
+    ]
+  },
+  {
+    "code": "EE440",
+    "title": "دستگاه‌های نیمه‌هادی",
+    "teacher": "دکتر کیمبرلی استوارت",
+    "units": 3,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "10:15",
+        "endTime": "11:45"
+      },
+      {
+        "day": "Saturday",
+        "startTime": "10:15",
+        "endTime": "11:45"
+      }
+    ]
+  },
+  {
+    "code": "CS530",
+    "title": "رایانش کوانتومی",
+    "teacher": "پروفسور جاستین موریس",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "14:00",
+        "endTime": "15:30"
+      }
+    ]
+  },
+  {
+    "code": "EE450",
+    "title": "ماشین‌های الکتریکی",
+    "teacher": "دکتر آنجلا بل",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "12:15",
+        "endTime": "13:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "12:15",
+        "endTime": "13:45"
+      }
+    ]
+  },
+  {
+    "code": "CS540",
+    "title": "توسعه برنامه‌های موبایل",
+    "teacher": "پروفسور براندون کوک",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "15:45",
+        "endTime": "17:15"
+      }
+    ]
+  },
+  {
+    "code": "EE460",
+    "title": "ارتباطات نوری",
+    "teacher": "دکتر هدر مورفی",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "15:00",
+        "endTime": "16:30"
+      }
+    ]
+  },
+  {
+    "code": "CS550",
+    "title": "تعامل انسان و کامپیوتر",
+    "teacher": "پروفسور جاشوا بیلی",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "10:00",
+        "endTime": "11:30"
+      }
+    ]
+  },
+  {
+    "code": "EE470",
+    "title": "سیستم‌های تعبیه‌شده",
+    "teacher": "دکتر پاتریک ریورا",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "08:45",
+        "endTime": "10:15"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "08:45",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "code": "CS560",
+    "title": "توسعه بازی",
+    "teacher": "پروفسور استفانی پرایس",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "13:00",
+        "endTime": "14:30"
+      }
+    ]
+  },
+  {
+    "code": "EE480",
+    "title": "فناوری نانو",
+    "teacher": "دکتر بنجامین فاستر",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "14:30",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "code": "CS570",
+    "title": "فناوری بلاکچین",
+    "teacher": "پروفسور ویکتوریا رید",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "13:30",
+        "endTime": "15:00"
+      }
+    ]
+  },
+  {
+    "code": "EE490",
+    "title": "فناوری شبکه هوشمند",
+    "teacher": "دکتر نیکلاس سندرز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "16:45",
+        "endTime": "18:15"
+      }
+    ]
+  },
+  {
+    "code": "CS580",
+    "title": "اینترنت اشیا",
+    "teacher": "پروفسور کریستینا پاول",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "17:15",
+        "endTime": "18:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "17:15",
+        "endTime": "18:45"
+      }
+    ]
+  },
+  {
+    "code": "EE500",
+    "title": "سیستم‌های رادار",
+    "teacher": "دکتر آرون هاوارد",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "17:30",
+        "endTime": "19:00"
+      }
+    ]
+  },
+  {
+    "code": "CS590",
+    "title": "رایانش موازی",
+    "teacher": "پروفسور کایل سیمونز",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "08:15",
+        "endTime": "09:45"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "08:15",
+        "endTime": "09:45"
+      }
+    ]
+  },
+  {
+    "code": "EE510",
+    "title": "ابزار دقیق پزشکی",
+    "teacher": "دکتر لورن برایانت",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "15:30",
+        "endTime": "17:00"
+      }
+    ]
+  },
+  {
+    "code": "CS600",
+    "title": "طراحی کامپایلر",
+    "teacher": "پروفسور زکاری راسل",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "08:45",
+        "endTime": "11:15"
+      }
+    ]
+  },
+  {
+    "code": "EE520",
+    "title": "ارتباطات ماهواره‌ای",
+    "teacher": "دکتر ملیسا دیاز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "19:00",
+        "endTime": "20:30"
+      }
+    ]
+  },
+  {
+    "code": "CS610",
+    "title": "آزمایش نرم‌افزار",
+    "teacher": "پروفسور تایلر لانگ",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "18:15",
+        "endTime": "19:45"
+      }
+    ]
+  },
+  {
+    "code": "EE530",
+    "title": "فناوری خودروهای الکتریکی",
+    "teacher": "دکتر راشل فلورس",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "19:00",
+        "endTime": "20:30"
+      }
+    ]
+  },
+  {
+    "code": "CS620",
+    "title": "فناوری‌های وب",
+    "teacher": "پروفسور جفری واتسون",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "17:45",
+        "endTime": "19:15"
+      }
+    ]
+  },
+  {
+    "code": "EE540",
+    "title": "فیبر نوری",
+    "teacher": "دکتر اسکات مورگان",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "16:45",
+        "endTime": "18:15"
+      }
+    ]
+  },
+  {
+    "code": "CS630",
+    "title": "کاوش داده‌ها",
+    "teacher": "پروفسور آماندا کلمن",
+    "units": 3,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "07:15",
+        "endTime": "08:45"
+      },
+      {
+        "day": "Thursday",
+        "startTime": "07:15",
+        "endTime": "08:45"
+      }
+    ]
+  },
+  {
+    "code": "EE550",
+    "title": "اتوماسیون صنعتی",
+    "teacher": "دکتر پاتریک هیوز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "07:30",
+        "endTime": "09:00"
+      }
+    ]
+  },
+  {
+    "code": "CS640",
+    "title": "بازیابی اطلاعات",
+    "teacher": "پروفسور دانیل بارنز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "07:45",
+        "endTime": "09:15"
+      }
+    ]
+  },
+  {
+    "code": "EE560",
+    "title": "مهندسی مایکروویو",
+    "teacher": "دکتر جاستین راس",
+    "units": 3,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "08:30",
+        "endTime": "10:00"
+      },
+      {
+        "day": "Saturday",
+        "startTime": "08:00",
+        "endTime": "09:30"
+      }
+    ]
+  },
+  {
+    "code": "CS650",
+    "title": "معماری کامپیوتر",
+    "teacher": "پروفسور هدر پترسون",
+    "units": 3,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "12:00",
+        "endTime": "14:30"
+      }
+    ]
+  },
+  {
+    "code": "EE570",
+    "title": "پردازش تصویر دیجیتال",
+    "teacher": "دکتر گرگوری سیمونز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "18:30",
+        "endTime": "20:00"
+      }
+    ]
+  },
+  {
+    "code": "CS660",
+    "title": "شبکه‌های عصبی",
+    "teacher": "پروفسور بریتانی جیمز",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "19:15",
+        "endTime": "20:45"
+      }
+    ]
+  },
+  {
+    "code": "EE580",
+    "title": "ذخیره‌سازی انرژی تجدیدپذیر",
+    "teacher": "دکتر آستین باتلر",
+    "units": 2,
+    "times": [
+      {
+        "day": "Thursday",
+        "startTime": "19:30",
+        "endTime": "21:00"
+      }
+    ]
+  },
+  {
+    "code": "CS670",
+    "title": "طراحی الگوریتم",
+    "teacher": "پروفسور کادی فیشر",
+    "units": 3,
+    "times": [
+      {
+        "day": "Monday",
+        "startTime": "12:30",
+        "endTime": "14:00"
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "12:30",
+        "endTime": "14:00"
+      }
+    ]
+  },
+  {
+    "code": "EE590",
+    "title": "حفاظت سیستم قدرت",
+    "teacher": "دکتر ونسا پرایس",
+    "units": 2,
+    "times": [
+      {
+        "day": "Friday",
+        "startTime": "18:30",
+        "endTime": "20:00"
+      }
+    ]
+  },
+  {
+    "code": "CS680",
+    "title": "معماری نرم‌افزار",
+    "teacher": "پروفسور ترور کلمن",
+    "units": 2,
+    "times": [
+      {
+        "day": "Tuesday",
+        "startTime": "07:45",
+        "endTime": "09:15"
+      }
+    ]
+  },
+  {
+    "code": "EE600",
+    "title": "مهندسی فشار قوی",
+    "teacher": "دکتر یاسمین رید",
+    "units": 2,
+    "times": [
+      {
+        "day": "Wednesday",
+        "startTime": "20:00",
+        "endTime": "21:30"
+      }
+    ]
+  }
+]
