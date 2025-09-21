@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             headerTitle: "Course Schedule Builder",
             settingsTitle: "Settings",
             maxCreditsLabel: "Max Credit Limit",
+            updateBtn: "Update",
             formTitle: "Add / Edit Course",
             courseCodeLabel: "Course Code*",
             courseTitleLabel: "Course Title*",
@@ -27,13 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
             wednesday: "Wednesday",
             thursday: "Thursday",
             friday: "Friday",
-            updateBtn: "Update",
         },
         fa: {
             pageTitle: "برنامه‌ریز درسی",
             headerTitle: "برنامه‌ریز درسی",
             settingsTitle: "تنظیمات",
             maxCreditsLabel: "حداکثر تعداد واحد",
+            updateBtn: "به‌روزرسانی",
             formTitle: "افزودن / ویرایش درس",
             courseCodeLabel: "کد درس*",
             courseTitleLabel: "نام درس*",
@@ -55,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
             wednesday: "چهارشنبه",
             thursday: "پنج‌شنبه",
             friday: "جمعه",
-            updateBtn: "به‌روزرسانی",
         }
     };
 
@@ -193,6 +193,39 @@ document.addEventListener('DOMContentLoaded', () => {
         headerHtml += '</tr>';
         scheduleHead.innerHTML = headerHtml;
 
+        // --- START OF CORRECTION ---
+
+        // 1. Get all time slots of currently selected courses
+        const selectedTimes = courses
+            .filter(c => selectedCourseCodes.has(c.code))
+            .flatMap(c => c.times);
+
+        // 2. Determine which unselected courses have a conflict
+        const disabledCourseCodes = new Set();
+        courses
+            .filter(c => !selectedCourseCodes.has(c.code)) // only check unselected courses
+            .forEach(courseToCheck => {
+                const hasConflict = courseToCheck.times.some(timeToCheck =>
+                    selectedTimes.some(selectedTime => {
+                        // Check for overlap only if they are on the same day
+                        if (timeToCheck.day !== selectedTime.day) {
+                            return false;
+                        }
+                        const start1 = timeToMinutes(timeToCheck.startTime);
+                        const end1 = timeToMinutes(timeToCheck.endTime);
+                        const start2 = timeToMinutes(selectedTime.startTime);
+                        const end2 = timeToMinutes(selectedTime.endTime);
+                        // True if they overlap
+                        return Math.max(start1, start2) < Math.min(end1, end2);
+                    })
+                );
+                if (hasConflict) {
+                    disabledCourseCodes.add(courseToCheck.code);
+                }
+            });
+
+        // --- END OF CORRECTION ---
+
         let bodyHtml = '';
         const totalSlots = (endHour - startHour) * (60 / settings.slotSize);
 
@@ -249,10 +282,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     } else {
                         const { meeting, colspan } = slot;
                         const isSelected = selectedCourseCodes.has(meeting.code);
-                        const isDisabled = !isSelected && [...selectedCourseCodes].some(selCode => courses.find(c => c.code === selCode).times.some(selTime => {
-                            if (selTime.day !== meeting.day) return false;
-                            return Math.max(timeToMinutes(meeting.startTime), timeToMinutes(selTime.startTime)) < Math.min(timeToMinutes(meeting.endTime), timeToMinutes(selTime.endTime));
-                        }));
+                        
+                        // --- USE THE CORRECTED LOGIC HERE ---
+                        const isDisabled = !isSelected && disabledCourseCodes.has(meeting.code);
 
                         const classes = `course-block ${isSelected ? 'selected' : ''} ${isDisabled ? 'disabled' : ''}`;
                         const tooltip = `${langPack.courseTeacherLabel.replace('*', '')}: ${meeting.teacher}\nTime: ${meeting.startTime} - ${meeting.endTime}`;
@@ -395,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const downloadJSON = (data, filename) => {
         const jsonStr = JSON.stringify(data, null, 2);
         const blob = new Blob([jsonStr], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
+        const url = URL.createObjectURL(url);
         const a = document.createElement('a'); a.href = url; a.download = filename;
         document.body.appendChild(a); a.click(); document.body.removeChild(a);
         URL.revokeObjectURL(url);
